@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Abstract</a>
+        <a href="html2.html">Suzzalo</a>
+
+        <!-- Active link pointing to the section2.html page -->
+        <a class="active" href="html3.html">Odegaard</a>
+
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- Section 2 content -->
+        Odegaard Library is the undergraduate library in UW Seattle it. 
+        It is also the library that stays open the latest on campus. 
+        More information on the Odegaard Library can be found by clicking on the link above
+    </div>
+
+    <!-- Accordian -->
+    <button class="accordion">Floor 1</button>
+    <div class="panel">
+    <p>the first floor is usually used for collaborative group work and is usually filled during finals</p>
+    </div>
+
+    <button class="accordion">Floor 2</button>
+    <div class="panel">
+    <p>The second floor is usually used for individual work on computers and pc's</p>
+    </div>
+
+    <button class="accordion">Floor 3</button>
+    <div class="panel">
+    <p>the third floor is usually the quietest floor and is also known as the silent floor as the volume level on the third floor must be kept silent at all times.</p>
+    </div>
+
+     <!-- Trigger the Modal -->
+     <img id="myImg" src="dsc_0149-copy-2.PNG" alt="Suzzallo" style="width:100%;max-width:300px">
+
+     <!-- The Modal -->
+     <div id="myModal" class="modal">
+ 
+         <!-- The Close Button -->
+         <span class="close">&times;</span>
+ 
+         <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
+ 
+     </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
